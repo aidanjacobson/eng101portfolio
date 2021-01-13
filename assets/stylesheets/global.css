@@ -1,0 +1,30 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.center {
+    text-align: center;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.card {
+    display: none;
+}
+.card.selected {
+    display: block;
+}
+
+.textcard {
+    background-color: rgb(200, 200, 200);
+    /*width: 75%;*/
+    width: 500px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 10px;
+}
+
+.textcard > p {
+    text-indent: 2em;
+}
