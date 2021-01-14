@@ -2,27 +2,57 @@
     <head>
         <title>Aidan Jacobson's ENG 101 Portfolio</title>
         <link rel="stylesheet" href="assets/stylesheets/global.css">
+        <script src="assets/scripts/script.js"></script>
     </head>
     <body>
-        <div class="card selected" id="aboutme">
-            <h1 class="center">My English Portfolio</h1>
-            <h2 class="center">Aidan Jacobson</h2>
-            <div class="textcard">
-                <h3 class="center">About Me</h3>
-                <p>
-                    I was born in San Jose, California, on December 24th, 2001. At age 9, I moved to Scottsdale, Arizona, where I now live whenever I'm not at school. Currently, I am a Computer Science major at Arizona State University. I applied to ASU because we get in-state tuition rates. When I graduate, I plan to become either a web developer or work in cybersecurity. (If you're reading this, I built this website from scratch!)
-                </p>
-                <p>
-                    I consider myself to be a good writer, however, I don't write that often. I think of myself as a person with a wide vocabulary, a flair for phrasing, and a lack of editing skills. It's not unusual for me to struggle with the "revision" part of the writing process, so I try to do my best to get it right the first time around. While I don't have a lot of reasons to write, when I do, I enjoy being able to express what I'm trying to say without necessarily having to say it to anyone. If there's one thing I'm good at, it's monologuing - and what better place to do that than the place where no one will stop you?
-                </p>
-                <p>
-                    I'm taking First Year Composition because it is a required class for my general studies. That being said, I think I will get a lot out of this class. One thing I am looking forward to is the opportunities to exercise my writing muscles, and be able to be creative in my own way. Additionally, I believe this class will give me the tools to succeed in my other classes, when I inevitably have to write essays and paragraphs for less-than-exciting subjects, like science, or history.
-                </p>
+        <div id="header">
+            <div class="cardref selected" data-href="#aboutme" onclick="doUpdateFocus(event)">Home</div>
+            <div class="cardref" data-href="#litnarrative" onclick="doUpdateFocus(event)">Literacy Narrative</div>
+            <div class="cardref" data-href="#rhetanalysis" onclick="doUpdateFocus(event)">Rhetorical Analysis</div>
+            <div class="cardref" data-href="#evalpresentation" onclick="doUpdateFocus(event)">Evaluation Presentation</div>
+            <div class="cardref" data-href="#litnarrative" onclick="doUpdateFocus(event)">Reflection</div>
+        </div>
+        <div id="content">
+            <div class="card selected" id="aboutme">
+                <h1 class="center">My English Portfolio</h1>
+                <h2 class="center">Aidan Jacobson</h2>
+                <div class="textcard">
+                    <h3 class="center">About Me</h3>
+                    <p>
+                        I was born in San Jose, California, on December 24th, 2001. At age 9, I moved to Scottsdale, Arizona, where I now live whenever I'm not at school. Currently, I am a Computer Science major at Arizona State University. I applied to ASU because we get in-state tuition rates. When I graduate, I plan to become either a web developer or work in cybersecurity. (If you're reading this, I built this website from scratch!)
+                    </p>
+                    <p>
+                        I consider myself to be a good writer, however, I don't write that often. I think of myself as a person with a wide vocabulary, a flair for phrasing, and a lack of editing skills. It's not unusual for me to struggle with the "revision" part of the writing process, so I try to do my best to get it right the first time around. While I don't have a lot of reasons to write, when I do, I enjoy being able to express what I'm trying to say without necessarily having to say it to anyone. If there's one thing I'm good at, it's monologuing - and what better place to do that than the place where no one will stop you?
+                    </p>
+                    <p>
+                        I'm taking First Year Composition because it is a required class for my general studies. That being said, I think I will get a lot out of this class. One thing I am looking forward to is the opportunities to exercise my writing muscles, and be able to be creative in my own way. Additionally, I believe this class will give me the tools to succeed in my other classes, when I inevitably have to write essays and paragraphs for less-than-exciting subjects, like science, or history.
+                    </p>
+                </div>
+            </div>
+            <div class="card" id="litnarrative">
+                <h1 class="center">Literacy Narrative</h1>
+                <div class="textcard">
+                    <p>Placeholder Literacy Narrative Text</p>
+                </div>
+            </div>
+            <div class="card" id="rhetanalysis">
+                <h1 class="center">Rhetorical Analysis</h1>
+                <div class="textcard">
+                    <p>Placeholder Rhetorical Analysis Text</p>
+                </div>
+            </div>
+            <div class="card" id="evalpresentation">
+                <h1 class="center">Evaluation Presentation</h1>
+                <div class="textcard">
+                    <p>Placeholder Evaluation Presentation Text</p>
+                </div>
+            </div>
+            <div class="card" id="reflection">
+                <h1 class="center">Reflection</h1>
+                <div class="textcard">
+                    <p>Placeholder Reflection Text</p>
+                </div>
             </div>
         </div>
-        <div class="card" id="litnarrative">1</div>
-        <div class="card" id="rhetanalysis">2</div>
-        <div class="card" id="evalpresentation">3</div>
-        <div class="card" id="reflection">4</div>
     </body>
 </html>
